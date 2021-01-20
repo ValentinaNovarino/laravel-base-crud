@@ -6,10 +6,10 @@
     <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="#">Homepage</a>
+                <a class="nav-link" href="{{ route('homepage') }}">Homepage</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link disabled" href="#">Prodotti</a>
+                <a class="nav-link" href="{{ route('dresses.index') }}">Prodotti</a>
             </li>
         </ul>
     </div>
