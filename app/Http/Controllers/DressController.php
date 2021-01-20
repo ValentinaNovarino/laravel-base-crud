@@ -14,7 +14,7 @@ class DressController extends Controller
      */
     public function index()
     {
-        return 'index dei vestiti';
+        return view('dresses.index');
     }
 
     /**
