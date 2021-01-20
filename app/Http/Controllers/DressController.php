@@ -49,7 +49,15 @@ class DressController extends Controller
      */
     public function show($id)
     {
-        return 'dettaglio prodotto con id= ' .$id;
+        $dress = Dress::find($id);
+        if($dress) {
+            $data = [
+                'dress' => $dress
+            ];
+            return view('dresses.show', $data);
+        }
+        abort(404);
+
     }
 
     /**
