@@ -49,7 +49,7 @@ class DressController extends Controller
      */
     public function show($id)
     {
-        //
+        return 'dettaglio prodotto con id= ' .$id;
     }
 
     /**
