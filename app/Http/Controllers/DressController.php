@@ -27,7 +27,7 @@ class DressController extends Controller
      */
     public function create()
     {
-        return view('dresses.create')
+        return view('dresses.create');
     }
 
     /**
@@ -38,7 +38,13 @@ class DressController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $data = $request->all();
+        $dress = new Dress();
+        $dress->fill($data);
+        $dress->save();
+
+        return redirect()->route('dresses.index');
+
     }
 
     /**

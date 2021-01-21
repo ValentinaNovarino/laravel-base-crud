@@ -13,23 +13,23 @@
                     </div>
                     <div class="form-group">
                         <label>Marca</label>
-                        <input type="text" name="brand" class="form-control" placeholder="Tipo">
+                        <input type="text" name="brand" class="form-control" placeholder="Marca">
                     </div>
                     <div class="form-group">
                         <label>Prezzo</label>
-                        <input type="text" name="price" class="form-control" placeholder="Tipo">
+                        <input type="text" name="price" class="form-control" placeholder="Prezzo">
                     </div>
                     <div class="form-group">
                         <label>Taglia</label>
-                        <input type="text" name="size" class="form-control" placeholder="Tipo">
+                        <input type="text" name="size" class="form-control" placeholder="Taglia">
                     </div>
                     <div class="form-group">
                         <label>Colore</label>
-                        <input type="text" name="color" class="form-control" placeholder="Tipo">
+                        <input type="text" name="color" class="form-control" placeholder="Colore">
                     </div>
                     <div class="form-group">
                         <label>Descrizione</label>
-                        <input type="text" name="description" class="form-control" placeholder="Tipo">
+                        <input type="text" name="description" class="form-control" placeholder="Descrizione">
                     </div>
                     <div class="form-group">
                         <button type="submit" class="btn btn-primary">Salva vestito</button>
