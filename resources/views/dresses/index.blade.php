@@ -22,7 +22,7 @@
                                 <td>{{ $dress->id }}</td>
                                 <td>{{ $dress->type }}</td>
                                 <td>{{ $dress->brand }}</td>
-                                <td>{{ $dress->price }}</td>
+                                <td>{{ number_format($dress->price, 2, ',', ' ') }}</td>
                                 <td>{{ $dress->color}}</td>
                                 <td>{{$dress->size}}</td>
                                 <td>

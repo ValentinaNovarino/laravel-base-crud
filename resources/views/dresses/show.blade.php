@@ -8,9 +8,10 @@
                 <ul>
                     <li>Nome: {{ $dress->type }}</li>
                     <li>Marca: {{ $dress->brand }}</li>
-                    <li>Prezzo: {{ $dress->price }}</li>
+                    <li>Prezzo: {{ number_format($dress->price, 2, ',', ' ') }}</li>
                     <li>Colore: {{ $dress->color }}</li>
                     <li>Taglia: {{ $dress->size }}</li>
+                    <li>Descrizione: {{ $dress->description }}</li>
                 </ul>
             </div>
         </div>
