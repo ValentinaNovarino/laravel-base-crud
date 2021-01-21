@@ -5,6 +5,7 @@
         <div class="row">
             <div class="col-12">
                 <h1 class="text-center">Tutti i vestiti</h1>
+                <a href="{{ route('dresses.create') }}"class="btn btn-primary">Aggiungi vestito</a>
                 <table class="table">
                     <thead>
                         <tr>
