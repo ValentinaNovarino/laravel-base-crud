@@ -6,6 +6,7 @@
             <div class="col-12">
                 <h1 class="text-center">Inserisci nuovo vestito</h1>
                 <form method="POST" action="{{ route('dresses.store') }}">
+                    @csrf
                     <div class="form-group">
                         <label>Tipo</label>
                         <input type="text" name="type" class="form-control" placeholder="Tipo">
