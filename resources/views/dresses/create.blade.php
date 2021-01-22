@@ -21,7 +21,16 @@
                     </div>
                     <div class="form-group">
                         <label>Taglia</label>
-                        <input type="text" name="size" class="form-control" placeholder="Taglia">
+                        <select class="form-control" name="size">
+                            <option>Seleziona taglia</option>
+                            <option value="xs">XS</option>
+                            <option value="s">S</option>
+                            <option value="m">M</option>
+                            <option value="l">L</option>
+                            <option value="xl">XL</option>
+                            <option value="xxl">XXL</option>
+                        </select>
+                        {{-- <input type="text" name="size" class="form-control" placeholder="Taglia"> --}}
                     </div>
                     <div class="form-group">
                         <label>Colore</label>
