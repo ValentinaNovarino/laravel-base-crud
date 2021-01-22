@@ -29,6 +29,9 @@
                                 <td>
                                     <a class="btn btn-info" href="{{ route('dresses.show', ['dress' => $dress->id ])}}">Dettagli</a>
                                 </td>
+                                <td>
+                                    <a class="btn btn-warning" href="{{ route('dresses.edit', ['dress' => $dress->id]) }}">Modifica</a>
+                                </td>
                             </tr>
                         @endforeach
                     </tbody>
